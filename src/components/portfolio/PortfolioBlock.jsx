@@ -11,7 +11,7 @@ function PortfolioBlock({ image, live, source, title }) {
     >
       <div
         style={{
-          height: '400px',
+          height: '390px',
           objectFit: 'cover',
         }}
       >
