@@ -16,7 +16,7 @@ export default function Home() {
       justifyContent={'center'}
       minHeight={'calc(100vh - 175px)'}
     >
-      <Box
+      {/* <Box
         className={classNames(Style.avatar, Style.shadowed)}
         alt={'image of developer'}
         style={{ background: info.gradient }}
@@ -28,7 +28,7 @@ export default function Home() {
         p={'0.99rem'}
         mb={{ xs: '1rem', sm: 0 }}
         mr={{ xs: 0, md: '2rem' }}
-      />
+      /> */}
       <Box p={'0.7rem'}>
         <h1>
           Hi, I'm{' '}
@@ -52,7 +52,7 @@ export default function Home() {
         <Box
           display={'flex'}
           gap={'1.5rem'}
-          justifyContent={'center'}
+          justifyContent={'start'}
           fontSize={{ xs: '2rem', md: '2.5rem' }}
         >
           {info.socials.map((social, index) => (

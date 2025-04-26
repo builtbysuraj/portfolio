@@ -42,7 +42,7 @@ export default function BaseLayout() {
           <Routes>
             <Route exact path={'/'} element={<Home />} />
             <Route exact path={'/about'} element={<About />} />
-            <Route exact path={'/portfolio'} element={<Portfolio />} />
+            {/* <Route exact path={'/portfolio'} element={<Portfolio />} /> */}
           </Routes>
         </Grid>
         <Grid item>
@@ -59,7 +59,7 @@ export default function BaseLayout() {
               Made with &hearts; by{' '}
               <a href={'https://github.com/builtbysuraj'}>Suraj Gupta</a>
             </p>
-            <p>&copy; 2024</p>
+            <p>&copy; 2025</p>
           </Box>
         </Grid>
       </Grid>

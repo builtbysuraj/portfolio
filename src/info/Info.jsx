@@ -52,7 +52,7 @@ export const info = {
       label: 'linkedin',
     },
     {
-      link: 'https://twitter.com/builtbysuraj',
+      link: 'https://x.com/builtbysuraj',
       icon: 'fa-brands fa-twitter',
       label: 'twitter',
     },
